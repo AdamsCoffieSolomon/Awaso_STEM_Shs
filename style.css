@@ -1,0 +1,137 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    margin: 0%;
+    padding: 0%;
+    background-color: rgb(172, 167, 168);
+}
+
+.style {
+    text-shadow: 2px 2px green !important;
+}
+
+.bg-img {
+    /* The image used */
+    background-image: url("./images/278573711_100305116011944_696871598569148503_n.jpg");
+    min-height: 380px;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+
+/* Add styles to the form container */
+
+.styleme {
+    position: absolute;
+    right: 1%;
+    margin: 20px;
+    max-width: 300px;
+    padding: 16px;
+    background-color: white;
+}
+
+#makeups {
+    margin-top: 50% !important;
+    margin-left: 5 !important;
+}
+
+
+/* Full-width input fields */
+
+.main[type=text],
+.main[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+}
+
+.main[type=text]:focus,
+.main[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+
+/* Set a style for the submit button */
+
+.mybutton {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+.mybutton:hover {
+    opacity: 1;
+}
+
+.main,
+.mybutton,
+.container,
+::after {
+    clear: both;
+}
+
+.decurateme {
+    background-image: linear-gradient(lightblue, rgb(55, 55, 113), rgb(4, 4, 99));
+}
+
+.brand3 {
+    text-decoration: none;
+    background-color: lightblue;
+}
+
+h4:hover {
+    border: 1px solid grey;
+}
+
+.branding {
+    background-color: red;
+    background-image: linear-gradient(lightblue, rgb(55, 55, 113), rgb(4, 4, 99));
+}
+
+.brand2:hover {
+    opacity: 0.6;
+    border-color: black;
+}
+
+.brand4 {
+    padding: 20px;
+}
+
+.btn-primary {
+    background-image: linear-gradient(rgb(182, 216, 227), rgb(55, 55, 113), rgb(4, 4, 99));
+}
+
+.btn-primary:hover {
+    background-image: linear-gradient(rgb(148, 147, 150), rgb(88, 88, 122), rgb(72, 65, 138));
+}
+
+.brand6 {
+    background-image: linear-gradient(rgb(202, 202, 202), rgb(54, 36, 58), rgb(8, 7, 19));
+}
+
+.brand7 {
+    color: black;
+}
+
+.brand8 {
+    color: white;
+}
+
+hr {
+    width: 40%;
+    margin-left: 30%;
+    align-self: center;
+}
